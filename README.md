@@ -8,24 +8,24 @@ The microarchitecture decouples the front-end fetch from the execution engine, u
 
 ```mermaid
 flowchart TB
-    subgraph Front-End
+    subgraph FrontEnd [Front-End]
         IF[Fetch Unit<br/>4 Inst/Cycle] --> DEC[Parallel Decoders]
         BP[Gshare Predictor<br/>BTB + RAS] <--> IF
     end
 
-    subgraph Dispatch & Rename
+    subgraph DispatchRename [Dispatch & Rename]
         DEC --> DISP[Dispatch Unit]
         DISP <--> RAT[Active RAT<br/>w/ Checkpoints]
         DISP <--> FL[Free List FIFO]
     end
 
-    subgraph Out-of-Order Engine
+    subgraph OoOEngine [Out-of-Order Engine]
         DISP --> IQ[16-Entry Issue Queue<br/>Wakeup & Select]
         DISP --> ROB[64-Entry Reorder Buffer<br/>In-Order Commit]
         DISP --> LSQ[16-Entry Load/Store Queue]
     end
 
-    subgraph Execution Lanes
+    subgraph ExecLanes [Execution Lanes]
         IQ --> PRF[(96-Entry Physical<br/>Register File)]
         PRF --> ALU0[ALU Port 0]
         PRF --> ALU1[ALU Port 1]
@@ -36,7 +36,7 @@ flowchart TB
         LSQ <--> DC[(L1 D-Cache<br/>+ MSHR)]
     end
 
-    subgraph Writeback & Commit
+    subgraph WritebackCommit [Writeback & Commit]
         ALU0 & ALU1 & BR & DC --> CDB((Common Data Bus<br/>4-Wide Broadcast))
         CDB -->|Wakeup| IQ
         CDB -->|Write| PRF
