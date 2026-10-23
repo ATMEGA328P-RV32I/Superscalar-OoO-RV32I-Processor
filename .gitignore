@@ -1,0 +1,10 @@
+# Vivado and XSim junk
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+*.dir/
+.Xil/
+xsim.dir/
+vivado_pid*.str
