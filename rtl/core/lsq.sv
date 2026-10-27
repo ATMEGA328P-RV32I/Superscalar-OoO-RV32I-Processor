@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module lsq #(
   parameter LSQ_ENTRIES=16,
   parameter DATA_W=32,
