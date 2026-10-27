@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module alu_unit #(
   parameter DATA_W=32,
   parameter TAG_W=7,
