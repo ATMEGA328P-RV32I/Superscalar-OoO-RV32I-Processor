@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module agu #(
   parameter DATA_W=32
 )(
