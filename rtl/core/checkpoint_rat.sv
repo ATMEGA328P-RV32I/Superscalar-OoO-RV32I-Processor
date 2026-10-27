@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module active_rat #(
   parameter ARCH_REGS=32,
   parameter TAG_WIDTH=7,
