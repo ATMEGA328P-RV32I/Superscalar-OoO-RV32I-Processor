@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 import rv32i_types_pkg::*;
 
 module dispatch_renamer #(
