@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module branch_unit #(
   parameter DATA_W=32,TAG_W=7,ROB_W=6
 )(
