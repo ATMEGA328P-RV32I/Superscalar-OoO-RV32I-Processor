@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module iram #(
   parameter N=4,
   parameter DATA_W=32
