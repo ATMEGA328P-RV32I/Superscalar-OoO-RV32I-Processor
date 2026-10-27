@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module return_address_stack #(
   parameter DEPTH_LOG2=4, 
   parameter PC_WIDTH=32
