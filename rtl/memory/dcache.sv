@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module dcache #(
   parameter DATA_W=32,
   parameter DEPTH=2048
