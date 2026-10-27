@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 package rv32i_types_pkg;
   localparam ALU_ADD=4'd0;
   localparam ALU_SUB=4'd1;
