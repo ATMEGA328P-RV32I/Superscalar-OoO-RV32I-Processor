@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module nwide_fetch_unit #(
   parameter PC_WIDTH=32,
   parameter FETCH_WIDTH=4,
