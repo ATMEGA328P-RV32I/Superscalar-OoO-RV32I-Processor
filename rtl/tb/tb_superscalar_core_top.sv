@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 `timescale 1ns/1ps
 module tb_superscalar_core_top;
   parameter N=4;
