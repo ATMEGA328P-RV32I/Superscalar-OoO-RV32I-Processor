@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module free_list_nwide #(
   parameter PRF_ENTRIES=96,
   parameter ARCH_REGS=32,
