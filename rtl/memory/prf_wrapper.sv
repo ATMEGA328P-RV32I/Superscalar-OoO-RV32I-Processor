@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module prf_wrapper #(
   parameter DATA_WIDTH=32,
   parameter PRF_ENTRIES=96,
