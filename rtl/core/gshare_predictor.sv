@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module gshare_predictor #(
   parameter BHT_W=8,
   parameter BTB_W=6,
