@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module multiport_sram #(
   parameter DATA_WIDTH=32,
   parameter DEPTH=64,
