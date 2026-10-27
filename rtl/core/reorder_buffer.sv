@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module reorder_buffer #(
   parameter ROB_ENTRIES=64,
   parameter N=4,
