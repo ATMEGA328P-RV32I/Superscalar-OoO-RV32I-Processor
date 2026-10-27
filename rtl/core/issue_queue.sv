@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module issue_queue #(
   parameter IQ_ENTRIES=16, 
   parameter N=4,
