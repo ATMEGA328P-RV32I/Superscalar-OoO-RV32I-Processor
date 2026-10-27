@@ -1,3 +1,4 @@
+//Copyright 2026 Atul Kumar
 module store_forwarding_cam #(
   parameter LSQ_ENTRIES=16,   
   parameter DATA_W=32
